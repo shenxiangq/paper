@@ -1,0 +1,37 @@
+a_blocks(tree):
+BS = []
+a_elements = tree.getElements(‘a’)
+filter_valid_a(a_elements) # 按域名和锚文本长度筛选
+delete_same_a(a_elements)  # 删除重复的链接
+for ak in a_elements:
+  if ak.visited:
+    continue
+  R = xpath('')
+  ance_level = 0; contain_level = 0;
+  p = ak.getParent() # 获取父节点
+  while ance_level <= MAX_ANCE_LEVEL and contain_level <= MAX_CONTAIN_LEVEL:
+    R.addPath(p)
+    if p is CONTAINER_NODE and p.children.length > 1:
+      contain_level ++;
+      GA = p.find_by_xpath(R)
+      if GA.length > MIN_LINK_NUM:
+        BS.append([p, R])
+        GA.visited = TRUE
+        break
+
+    ance_level ++;    
+    iter_node = iter_node.getParent()
+return BS
+  
+merge_blocks(BS):
+for ance, R in BS:
+  if ance.visited:
+    continue
+  p = ance.getParent()
+  A = getChildren(p, BS)
+  if A.length >= MIN_MERGE_NUM and all_same(A):
+    BS.remove(A)
+    R.addPath(p)
+    BS.append([p, R])
+    A.visited = TRUE
+return BS
