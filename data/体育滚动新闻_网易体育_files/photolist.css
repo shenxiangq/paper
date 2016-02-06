@@ -1,0 +1,85 @@
+/* µ¼º½ */
+.mainNav {clear:both; background:url(navbg.gif) no-repeat; height:27px; width:940px; margin:4px auto 0; padding-left:20px;}
+.mainNav li {float:left; line-height:27px; padding:0 12px; background:url(navline.gif) no-repeat right center;}
+.mainNav li.lastItem { background:none;}
+.mainNav li a:link, .mainNav li a:visited {color:#fff;}
+.mainNav li a {display:block; height:27px; float:left;}
+.mainNav li a:hover {text-decoration:none;}
+.mainNav li.active a:link, .mainNav li.active a:visited {background:url(uparrow.gif) no-repeat bottom center; color:#FFFF00;}
+.subNav{background:#f5f5f5; width:960px; padding:5px 0; margin:2px auto 0; height:14px; clear:both;} 
+.subNav li {float:left; padding:0 12px; height:12px; line-height:14px; background:url(navline2.gif) no-repeat right;}
+.subNav li a:link, .subNav li a:visited {color:#333;}
+.subNav li a:hover {color:#b00;}
+
+.twoColArea {background:url(twocol_bg.gif) repeat-y;width:960px;margin:0 auto;}
+.twoColBottom {background:url(twocol_bottom.gif) no-repeat;width:960px;height:6px;margin:0 auto;overflow:hidden;}
+
+.twoColArea .col1 {width:185px;float:left;overflow:hidden;}
+.twoColArea .col1 .subArea {width:160px;margin:0 auto;}
+
+.twoColArea .col1 .top {background:url(toptitlebg.jpg);width:185px;height:27px;line-height:27px;font-weight:bold;color:#fff;text-align:left;overflow:hidden;text-indent:20px;}
+
+.twoColArea .col1 .title {background-position:9px center;background-repeat:no-repeat;font-size:14px;font-weight:bold;padding-left:28px;text-align:left;line-height:38px;height:38px;}
+.twoColArea .col1 .title1 {background-image:url(col1_title1.gif);}
+.twoColArea .col1 .title2 {background-image:url(col1_title2.gif);}
+.twoColArea .col1 .title3 {background-image:url(col1_title3.gif);}
+
+ul.menu li {background:url(col1_menuitem_bg.gif) no-repeat;height:23px;line-height:23px;font-size:14px;text-align:left;margin-bottom:5px;vertical-align:bottom;}
+ul.menu li a {display:block;padding-left:1.3em;}
+ul.menu li.down a {background:url(leftdown_style.gif) no-repeat 0.5em center;}
+ul.menu li.current a {color:#db1011;font-weight:bold;}
+
+table.items {border-collapse:collapse;width:100%;display:none;}
+table.items td {border:1px solid #e8e8e8;width:50%;text-align:left;height:23px;line-height:23px;padding-left:0.8em;}
+table.items tr.gray td {background:#f7f7f7;}
+table.items a {color:#696969;}
+
+.twoColArea .col2 {width:748px;padding:0 1px;border-top:1px solid #ccc;float:right;overflow:hidden;}
+.twoColArea .col2 .title {font-size:20px;font-family:"ºÚÌå";text-align:left;line-height:26px;border-bottom:1px solid #ccc;width:716px;margin: 10px auto 0 auto;}
+.twoColArea .col2 .title span {font-size:12px;color:#666;padding-left:0.8em;}
+.twoColArea .col2 .title .more {font-family:'ËÎÌå'; font-size:12px;color:#666;padding-left:0.8em;}
+
+.twoColArea .col2 .listHead {width:716px;margin:10px auto 0 auto;background:#f7f7f7;height:25px;line-height:25px;}
+.twoColArea .col2 .listHead * {display:block;float:left;}
+.twoColArea .col2 .listHead .articleTitle {width:460px;}
+.twoColArea .col2 .listHead .source {width:100px;padding-left:32px;}
+.twoColArea .col2 .listHead .postTime {width:112px;float:right;}
+
+.articleList {width:694px;margin:10px auto 0 auto;border-bottom:1px dashed #ccc;padding-bottom:5px;font-size:14px;}
+.articleList li {height:26px;line-height:26px;background:url(articlelist_style.gif) no-repeat left center;padding-left:10px;overflow:hidden;}
+.articleList li * {display:block;float:left;overflow:hidden;}
+.articleList li .articleTitle {width:460px;text-align:left;}
+.articleList li .source {width:100px;padding-left:10px;}
+.articleList li .source,.articleList li .postTime {color:#015987;font-size:12px;}
+.articleList li .postTime {float:right;text-align:right;width:112px;}
+
+.imgList2 {width:744px; overflow:hidden; margin:20px auto 0 auto; clear:both;}
+.imgList2 ul {overflow:hidden; border-bottom:1px dashed #ccc; padding-bottom:12px; margin-bottom:20px; height:1%;}
+.imgList2 li {width:186px; float:left;}
+.imgList2 li .blockBox {background:url(imgbox.gif) -192px repeat-y; width:169px; margin:0 auto;}
+.imgList2 li .blockBox .topBg_0 {background:url(imgbox.gif) 3px no-repeat; font-size:1px; line-height:1px; height:5px; width:169px; margin:0 auto;}
+.imgList2 li .blockBox .imgBox {width:150px; height:150px; overflow:hidden; margin:0 auto; vertical-align:bottom;}
+.imgList2 li .blockBox .imgBox img {margin:0 auto; display:block;}
+.imgList2 li .blockBox .imgBox table {width:150px; height:150px;}
+.imgList2 li .blockBox .bottomBg_0 {background:url(imgbox.gif) -388px no-repeat; font-size:1px; line-height:1px; height:5px; width:169px; margin:5px auto 0 auto;}
+.imgList2 li .bottomBg {background:none; width:186px; margin:0 auto; font-size:1px; height:5px;}
+.imgList2 li .imgCite {width:150px; margin:0 auto; line-height:20px; padding-bottom:6px;}
+.imgList2 li .imgCite .tit {font-weight:bold; text-align:left;}
+.imgList2 li .imgCite cite {font-style:normal; color:#666;}
+.imgList2 li .imgCite p {color:#666; line-height:19px; margin:3px 0 0 0;}
+.imgList2 li .imgCite .info {color:#666; line-height:19px; margin:3px 0 0 0; text-indent:2em; text-align:left;}
+.imgList2 .active {background:url(imgbox.gif) -803px repeat-y;}
+.imgList2 .active .topBg {background:url(imgbox.gif) -587px no-repeat; width:186px; margin:0 auto; font-size:1px; height:5px;}
+.imgList2 .active .bottomBg {background:url(imgbox.gif) -1019px no-repeat; width:186px; margin:0 auto; font-size:1px; height:5px;}
+.imgList2 .active .blockBox .topBg_0 {display:none;}
+.imgList2 .active .blockBox {background:none;}
+.imgList2 .active .blockBox .bottomBg_0 {background:none; font-size:1px; line-height:1px; height:5px; width:169px; margin:5px auto 0 auto;}
+
+.pages {font-size:14px;line-height:24px;padding-bottom:10px;width:694px;margin:0 auto;}
+.pages li {display:inline;font-weight:bold;line-height:28px;}
+.pages li.previous {margin-right:13px;}
+.pages li.next {margin-left:12px;}
+.pages li.previous,.pages li.next {font-weight:normal;}
+.pages li.current a {color:#000;}
+.pages li a {color:#bc2931;border:1px solid #ccc;padding:3px 5px;}
+.pages li a:hover {color:#fff;background:#bc2931;}

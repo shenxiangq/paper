@@ -1,0 +1,76 @@
+/* 频道首页导航 NTES-nav */
+.ntes-usercenter-logined,.ntes-usercenter-name,.ntes-usercenter-logined:hover {background:url("http://img2.cache.netease.com/common/img/reg_bg.png") no-repeat;}
+.NTES-nav {width:960px; height:30px; line-height:30px; margin:0 auto; text-align:left;}
+.NTES-nav .nav-link{float:left; color:#b3b3b3;}
+.nav-link a,.nav-link a:visited {color:#2b2b2b;}
+.nav-link a:hover {color:#ba2636;}
+	.nav-link a:hover {color:#ba2636;}
+.NTES-nav .rightCon {float:left; _display:inline; margin:0 0 0 6px;}
+.NTES-nav .nav-link a {padding:0 2px;}
+.NTES-nav .NTES-nav-link-chexian a { padding: 0 3px; }
+.NTES-nav .rss {float:right; _display:inline; margin:8px 3px 0 0;}
+.ntes-usercenter {position:relative; margin-right:3px;}
+.ntes-usercenter-entry {display:none; position:absolute; z-index:10; width:100%; _width:170px; left:0; top:23px; overflow:hidden; background:#fff; line-height:18px; text-align:left; color:#2b2b2b;}
+.ntes-usercenter-entry .user-entry {display:block; border:1px solid #dcdddd; padding:1px;}
+.ntes-usercenter-entry a {display:block; clear:both; width:100%; _width:166px; height:21px; line-height:21px; text-indent:3px; font-weight:normal; color:#2b2b2b;}
+.ntes-usercenter-entry a:hover{ background-color:#4472AE; color:#fff; text-decoration: none; }
+.NTES-link {float:left;}
+.ntes-usercenter {float:left;}
+.ntes-usercenter-loginout {padding:0 0 0 3px; color:#727171;}
+.ntes-usercenter-logined {float:left; height:21px; margin-top:3px; padding-left:6px; line-height:21px; font-family:Verdana,\5B8B\4F53,san-serif; background-position:left top;}
+.ntes-usercenter-name {float:left; width:60px; cursor:pointer; padding-right:9px; background-position:right -20px; background-color:#fff;}
+.ntes-usercenter-logined:hover {background-position:left -40px;}
+.ntes-usercenter-logined:hover .ntes-usercenter-name {background-position:right -60px;}
+/* 频道首页--页脚导航 channel-end */
+.channel-end,.channelEnd-rightS,.channelEnd-link,.channelEnd-top {background:url("http://img3.cache.netease.com/cnews/img09/endnav_bg1001.jpg");}
+.channel-end {width:960px;height:37px;overflow:hidden;margin:10px auto 0;line-height:38px;background-position:left -67px;background-repeat:repeat;}
+.channelEnd-rightS {display:block;float:right;width:5px;height:37px;overflow:hidden;background-position:right -141px;background-repeat:no-repeat;}
+.channelEnd-link {float:left;height:37px;line-height:37px;overflow:hidden;color:#1E50A2;background-position:left -30px;background-repeat:no-repeat;}
+.channelEnd-link a {float:none;padding:0 5px;font-weight:normal;background:none;}
+.channelEnd-link .firstNode {margin-left:8px; background:none;}
+.channelEnd-top {display:block;float:right;width:70px;height:37px;overflow:hidden;line-height:37px;text-indent:10px;background-position:left -30px;background-repeat:no-repeat;}
+#divSelect {float:left;}
+/* common @ NTES_nav_ & END_nav_ */
+.nav_link a,.nav_link a:visited {color:#2b2b2b;}
+.nav_link a:hover {color:#ba2636;}
+.nav_link a {padding:0 3px;}
+	/* 搜索框 */
+	.top_search .select_box {background:url("http://img1.cache.netease.com/cnews/img09/ntes_nav_img.gif") left -56px no-repeat; width:45px; height:18px; border:none; position:relative; text-align:left; cursor:pointer; float:left; margin-right:4px; z-index:1;}
+	.top_search .select_box .select_list {display:block; position:absolute; z-index:2; width:3em; line-height:19px; left:0; top:0; background:#fff; display:none;}
+	.top_search .select_box .search_site {height:18px; line-height:20px; padding-left:6px; float:left; overflow:hidden;}
+	.top_search .select_box .select_list {width:43px; border:1px solid #B4B4B4;}
+	.top_search .select_box {width:45px;}
+	.top_search .select_box a {display:block; height:18px; text-indent:5px;}
+	.top_search .select_box a:hover {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}
+	.top_search .select_box a.active {background:#1E50A2; color:#fff; display:block; height:18px; text-decoration:none;}
+	.top_search .textBox {width:88px; height:18px; color:#7B7C7D; background:url("http://img1.cache.netease.com/cnews/img09/ntes_nav_img.gif") left top no-repeat; border:none; float:left; line-height:18px; text-indent:3px;}
+	.top_search .btn {overflow:hidden; width:41px; height:18px; background:url("http://img1.cache.netease.com/cnews/img09/ntes_nav_img.gif") left -28px no-repeat; border:none; float:left; line-height:19px; font-size:12px; cursor:pointer;}
+	.top_search form {float:left;}
+	.top_search .rss{float:left; margin:2px 0 0 6px;}
+/* 专题头部导航 NTES_nav_ fix */
+.NTES_nav_ {width:960px; height:30px; line-height:30px; margin:0 auto; text-align:left;}
+.NTES_nav_ .NTES_logo {float:left; display:inline; margin:5px 5px 0 5px;}
+.NTES_nav_ .hidden {display:none;}
+.NTES_nav_ .nav_link{float:left; color:#b3b3b3;}
+.NTES_bg_ {height:35px; background:url("http://img1.cache.netease.com/cnews/img09/ntes_bg.jpg") left bottom repeat-x;}
+.NTES_bg_ .nav_link {margin-top:2px;}
+.NTES_bg_ .top_search {float:right; margin-top:8px;}
+/* 文章页 END_nav_ 页脚 */
+.END_nav_ .top_search {float:right; margin:9px 12px 0 0; display:inline;}
+.END_nav_ {background:url("http://img1.cache.netease.com/cnews/css09/bg_n.gif") left -48px repeat-x; border-left:1px solid #DDDDDD;border-right:1px solid #DDDDDD; width:958px; height:37px; line-height:37px; clear:both; margin:0 auto}
+.END_nav_ .nav_link {float:left; padding-left:6px; color:#B3B3B3;}
+.END_nav_ .hidden {display:none;}
+#divSelect2 {float:left;}
+/* 6.2 wb_msg */
+.c-b3{color:#b3b3b3;}
+.code-num {font-family:"Arial","\5B8B\4F53";}
+.NTES-nav-rss,.NTES-nav-wbLogin,.NTES-nav-wbMsg {background:url("http://img2.cache.netease.com/common/img/wb_bg_chl_v2.png") no-repeat;}
+.NTES-nav-rss {float:right; margin:9px 0 0; display:inline-block; width:23px; height:13px; overflow:hidden; text-indent:-100em; background-position:left -18px;}
+.NTES-nav-wbLogin {float:left; display:inline-block; width:45px; height:18px; line-height:18px; margin:5px 0 0 5px; text-indent:19px; overflow:hidden; background-position:left top; _display:block;_zoom:1;_overflow:hidden;}
+.NTES-nav-wbMsg {float:left; padding:0 6px 0 20px; background-position:-28px -19px;}
+.NTES-nav-wbLogin,.NTES-nav-wbLogin:hover,.NTES-nav-wbLogin:visited{color:#f6f6f6; text-decoration:none;}
+/* 12.5.22 nav-link-more */
+.nav-link-item{background:url(http://img3.cache.netease.com/cnews/img09/select.png) right center no-repeat;padding:0 10px 0 0;margin: 0 6px 0 0;color:#2b2b2b;position:relative;cursor:pointer;}
+.link-item-more{position:absolute;width: 35px;top: 15px;left: 0;line-height:21px;border: 1px solid #dcdddd;background:#fff;}
+.link-item-more a,.link-item-more a:visited {display:block;color: #2b2b2b;margin:1px;text-decoration: none;}
+.link-item-more a:hover{background-color:#4472AE;color:#fff;}

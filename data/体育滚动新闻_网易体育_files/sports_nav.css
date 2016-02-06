@@ -1,0 +1,27 @@
+/* CSS Document */
+.topNav960{margin:0 auto; width:960px; clear:both; background:#fff;}
+.topNav750{margin:0 auto; width:750px; clear:both; background:#fff;}
+
+.topNav{ clear:both;}
+.topNav .logoTip{clear:both; height:46px;}
+.topNav .logoTip .logo{float:left;}
+.topNav .logoTip .logoText{float:left; padding:12px 0 0 9px;}
+.topNav .logoTip .text{float:left; padding:24px 0 0 10px;}
+.topNav .logoTip .search{ float:right; width:255px; padding:0 5px 0 0; }
+.topNav .logoTip .search .s1{float:left; padding:24px 0 0;}
+.topNav .logoTip .search .s2{float:left; padding:18px 0 0 3px;}
+.topNav .logoTip .search .s2 input{ border:1px solid #ccc; width:95px; height:16px; font-size:12px;}
+.topNav .logoTip .search .s3{float:left; padding:18px 0 0 6px;}
+.topNav .logoTip .search .s3 .input{ border:0; width:51px; cursor:pointer; height:20px; padding:2px 0 0; font-size:12px; background:url(http://cimg2.163.com/tech/img07/input_bg0.gif);}
+.topNav .logoTip .search .s3 .inputOver{ border:0; width:51px; cursor:pointer;  height:20px; padding:2px 0 0; font-size:12px; background:url(http://cimg2.163.com/tech/img07/input_bg0_.gif);}
+.topNav .logoTip .search .s4{float:left; padding:22px 0 0 6px;}
+
+.topNav .menu{ height:25px; clear:both;  border-top:3px solid #000; border-bottom:1px solid #eee;}
+.topNav .menu ul{}
+.topNav .menu li{padding:7px 0 0 3px; text-align:left; clear:both;}
+.ttopNav a{color:#000;}
+.topNav a:visited{color:#000;}
+.topNav a:hover{color:#bc2931;}
+.topNav .menu .tip a{color:#fff;}
+.topNav .menu .tip a:visited{color:#fff;}
+.topNav .menu .tip a:hover{color:#ff0;}
