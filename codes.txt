@@ -35,3 +35,23 @@ for ance, R in BS:
     BS.append([p, R])
     A.visited = TRUE
 return BS
+
+filter_template_block(BS):
+GS = group_by_url_domain(BS) #按照url域名分组
+for G in GS:
+  M = HashMap<String, Integer>() 
+  for bs in G:
+    for bi in bs:
+      urls = bi.get_all_urls() 
+      urls.sort()
+	  string_key = urls.concat() #将该区块的所有URL拼接
+      bi.string_key = string_key
+      M[string_key] += 1 #特征字符串出现次数+1
+  MIN_REPEAT_TIME = MAX(sum(M.values()), 5)
+  repeated = filter(M, value >= MIN_REPEAT_TIME)
+  for bs in G:
+    for bi in bs:
+      if bi.string_key in repeated:
+        bs.remove(bi)
+return BS
+
