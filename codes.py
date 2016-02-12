@@ -35,6 +35,7 @@ for ance, R in BS:
     BS.append([p, R])
     A.visited = TRUE
 return BS
+    
 
 filter_template_block(BS):
 GS = group_by_url_domain(BS) #按照url域名分组
@@ -55,3 +56,23 @@ for G in GS:
         bs.remove(bi)
 return BS
 
+
+class CountDownLatch(object):
+    def __init__(self, counter, original_d, allDoneCallBack):
+        self.counter = counter # 任务总数
+        self.original_d = original_d  # 原有的Deferred对象
+        self.allDoneCallBack = self.allDoneCallBack # 全部任务结束后的回调
+        self.results = [] # 任务结果
+        self.id = 0  # 任务id
+    
+    def add(self, func, *args):
+        d = defer.Deferred()
+        d.addCallback(func, *args)
+        d.addCallback(self.count_down, self.id)
+        self.id += 1
+
+    def count_down(self, result, id):
+        self.counter -= 1
+        self.results[id] = result
+        if self.counter == 0:
+            self.original_d.addCallback(self.allDoneCallBack, self.results)
